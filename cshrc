@@ -11,7 +11,7 @@ alias j		jobs -l
 #alias la	ls -aF
 #alias lf	ls -FA
 #alias ll	ls -lAF
-#alias ls  ls -G
+alias ls  ls -G
 
 # A righteous umask
 umask 22
