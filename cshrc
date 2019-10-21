@@ -30,7 +30,7 @@ if ($?prompt) then
 
 	set filec
 	set history = (100000 " %h %D/%W/%Y %T %R \n")
-	set savehist = (100000 merge)
+	set savehist = (100000 merge lock)
 	set autolist = ambiguous
 	# Use history to aid expansion
 	set autoexpand
