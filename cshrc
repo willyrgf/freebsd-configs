@@ -30,8 +30,10 @@ if ($?prompt) then
 
 	set filec
 	set history = (100000 " %h %D/%W/%Y %T %R \n")
-	set savehist = (100000 merge lock)
-	set autolist = ambiguous
+    set savehist = (${history} merge lock)
+    set autolist = ambiguous
+    alias precmd 'history -S'
+    alias postcmd 'history -M'
 	# Use history to aid expansion
 	set autoexpand
 	set autorehash
