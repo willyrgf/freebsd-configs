@@ -33,8 +33,8 @@ if ($?prompt) then
     set savehist = (100000 merge lock)
     set histdup = erase
     set autolist = ambiguous
-    alias precmd 'history -S'
-    alias postcmd 'history -M'
+    #alias precmd 'history -S'
+    #alias postcmd 'history -M'
 	# Use history to aid expansion
 	set autoexpand
 	set autorehash
